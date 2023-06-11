@@ -18,7 +18,8 @@ This project is a Web API-based system designed to facilitate English language l
 ## Technologies Used
 
 - Web API: The system is built as a Web API.
-- Naive Bayes Algorithm: Used for article classification based on subject.
+- React: The Client side was written in React(the full code is in React-Articles repository).
+- - Naive Bayes Algorithm: Used for article classification based on subject.
 - Gensim Word2Vec Model in Python: Used for generating word recommendations.
 
 
