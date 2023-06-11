@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Language.V1" Version="3.2.0" />
+    <PackageReference Include="Google.Cloud.Translation.V2" Version="3.2.0" />
+    <PackageReference Include="IronOcr" Version="2023.5.35" />
+    <PackageReference Include="IronPdf" Version="2023.5.8" />
+    <PackageReference Include="OpenNLP.NET" Version="1.9.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\EntityFrameWork\EntityFrameWork.csproj" />
+  </ItemGroup>
+
+</Project>
