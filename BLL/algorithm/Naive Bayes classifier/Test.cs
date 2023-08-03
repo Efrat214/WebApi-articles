@@ -67,7 +67,7 @@ namespace BLL.algorithm.Naive_Bayes_classifier
             string text = "";
             //חיבור לתרגום גוגל 
             string targetLanguage = "he";
-            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", @"C:\Users\1\Desktop\תכנות\תכנות יד\פרויקט גמר\finalProjecr\finalProjecr\google_nlp.json");
+            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", @"C:\Users\google_nlp.json");
             var client = TranslationClient.Create();
             TranslationResult result;
             Question question = new Question();
