@@ -59,7 +59,7 @@ namespace BLL.algorithm
             Preprocessing p = new Preprocessing(content);
             List<wordInArticale> cleanArt = p.parseToWords();
             //קריאת מערך הנתונים של התדירות
-            ReadCsv r = new ReadCsv(@"C:\Users\1\Desktop\תכנות\תכנות יד\פרויקט גמר גמור!!\WebApi\BLL\unigram_freq.csv");
+            ReadCsv r = new ReadCsv(@"C:\Users\unigram_freq.csv");
             Dictionary<string, Frequency> frequency = r.readCsvv();
             //קבלת רמת המאמר
             LevelAnalysis levelAnalysis=new LevelAnalysis();
