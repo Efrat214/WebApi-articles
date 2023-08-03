@@ -16,7 +16,7 @@ namespace BLL.algorithm
         {
             int index = 0;
             //להסרה stop words טעינת רשימת
-            var stopWords = new HashSet<string>(File.ReadAllLines(@"C:\Users\1\Desktop\תכנות\תכנות יד\פרויקט גמר\NaiveBasesAlgo\NaiveBasesAlgo\stop_words.txt"));
+            var stopWords = new HashSet<string>(File.ReadAllLines(@"C:\Users\NaiveBasesAlgo\stop_words.txt"));
             //לצורך ניתוח ישויות והסרת שמות ושמות מקומות google nlp api שליחה ל 
             //List<EntitySentiment> res = GoogleNlpEntity(articale);
             //הגדרת תווי רווח לפיצול המאמר למילים
